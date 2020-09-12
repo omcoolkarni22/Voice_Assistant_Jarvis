@@ -30,7 +30,7 @@ def listen():
         query = r.recognize_google(audio, language="en-in")
         #print(query)
     except Exception as e:
-        print(e)
+        #print(e)
         Jarvis_Says("Please Say that again!")
         return "None"
 
